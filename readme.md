@@ -18,4 +18,4 @@ By Hanting Chen, Yunhe Wang, Tianyu Guo, Chang Xu, Yiping Deng, Zhenhua Liu, Siw
 ```
 
 ## News
-- Pytorch pre-trained model will be released in June!
+- Pytorch pre-trained model will be released in June! 
