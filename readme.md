@@ -6,7 +6,7 @@ By Hanting Chen, Yunhe Wang, Tianyu Guo, Chang Xu, Yiping Deng, Zhenhua Liu, Siw
 We study the low-level computer vision task (such as denoising, super-resolution and deraining) and develop a new pre-trained model, namely, image processing transformer (IPT). We present to utilize the well-known ImageNet benchmark for generating a large amount of corrupted image pairs. The IPT model is trained on these images with multi-heads and multi-tails. The pre-trained model can therefore efficiently employed on desired task after fine-tuning. With only one pre-trained model, IPT outperforms the current state-of-the-art methods on various low-level benchmarks.
 
 <p align="center">
-<img src="images/intro.png" width="1000">
+<img src="images/intro.png" width="900">
 </p>
 
 
@@ -47,6 +47,7 @@ Coming soon!
 - Detailed results on image super-resolution task.
 
 <center>
+    
 |                         Method                          |   Scale   |     Set5     |    Set14     |     B100     |   Urban100   |
 | :-----------------------------------------------------: | :-------: | :----------: | :----------: | :----------: | :----------: |
 |    [VDSR](https://github.com/twtygqyy/pytorch-vdsr)     | $\times$2 |    37.53     |    33.05     |    31.90     |    30.77     |
@@ -95,19 +96,19 @@ Coming soon!
 - Super-resolution result
 
 <p align="center">
-<img src="images/sr_result.PNG" width="800">
+<img src="images/sr_result.PNG" width="950">
 </p>
 
 - Denoising result
 
 <p align="center">
-<img src="images/dn_result.png" width="800">
+<img src="images/dn_result.PNG" width="950">
 </p>
 
 - Derain result
 
 <p align="center">
-<img src="images/dr_result.PNG" width="800">
+<img src="images/dr_result.png" width="950">
 </p>
 
 
