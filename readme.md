@@ -1,3 +1,10 @@
+<style>
+table
+{
+    margin: auto;
+}
+</style>
+
 # **Pre**-Trained Image Processing Transformer (IPT)
 By Hanting Chen, Yunhe Wang, Tianyu Guo, Chang Xu, Yiping Deng, Zhenhua Liu, Siwei Ma, Chunjing Xu, Chao Xu, Wen Gao. [[arXiv]](https://arxiv.org/abs/2012.00364)
 
@@ -90,7 +97,7 @@ Coming soon!
 - Super-resolution result
 
 <p align="center">
-<img src="images/sr_result.png" width="800">
+<img src="images/sr_result.PNG" width="800">
 </p>
 
 - Denoising result
@@ -102,7 +109,7 @@ Coming soon!
 - Derain result
 
 <p align="center">
-<img src="images/dr_result.png" width="800">
+<img src="images/dr_result.PNG" width="800">
 </p>
 
 
