@@ -16,13 +16,6 @@ We study the low-level computer vision task (such as denoising, super-resolution
 - [Pretrained weights for super-resolution X4](https://www.mindspore.cn/resources/hub/details?noah-cvlab/gpu/1.1/ipt_v1.0_Set14_SR_x4)
 
 
-
-## News
-
-- Pytorch pre-trained model will be released in June! 
-
-
-
 ## Requirements
 
 - python 3
@@ -30,12 +23,45 @@ We study the low-level computer vision task (such as denoising, super-resolution
 - torchvision
 
 
+## Dataset
 
-## Usage
+The benchmark datasets can be downloaded as follows:
 
-Coming soon!
+For super-resolution:
 
+ Set5,
+[Set14](https://sites.google.com/site/romanzeyde/research-interests),
+[B100](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/),
+Urban100.
 
+For denoising:
+
+[CBSD68](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/).
+
+For deraining:
+
+[Rain100L](https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html)
+
+The result images are converted into YCbCr color space. The PSNR is evaluated on the Y channel only.
+
+## Script Description
+
+This is the inference script of IPT, you can following steps to finish the test of image processing tasks, like SR, denoise and derain, via the corresponding pretrained models.
+
+### Script Parameter
+
+For details about hyperparameters, see option.py.
+
+## Evaluation
+
+### Evaluation Process
+
+> Inference example:
+> For SR x4:
+
+```bash
+python main.py --dir_data $DATA_PATH --data_test $DATA_TEST --test_only --ext img --pth_path $MODEL --task_id $TASK_ID --scale $SCALE
+```
 
 ## Results
 
@@ -126,3 +152,7 @@ Coming soon!
 ```
 
 
+## Acknowledgement
+
+* Main code from [EDSR-PyTorch](https://github.com/sanghyun-son/EDSR-PyTorch)  
+* Transformer code from [detr](https://github.com/facebookresearch/detr)
