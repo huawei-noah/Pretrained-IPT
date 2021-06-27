@@ -54,6 +54,10 @@ For details about hyperparameters, see option.py.
 
 ## Evaluation
 
+### Pretrained models
+
+https://drive.google.com/drive/folders/1MVSdUX0YBExauG0fFz4ANiWTrq9xZEj7?usp=sharing
+
 ### Evaluation Process
 
 > Inference example:
