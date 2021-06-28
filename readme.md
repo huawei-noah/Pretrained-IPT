@@ -56,15 +56,27 @@ For details about hyperparameters, see option.py.
 
 ### Pretrained models
 
-https://drive.google.com/drive/folders/1MVSdUX0YBExauG0fFz4ANiWTrq9xZEj7?usp=sharing
+The pretrained models are available in [google drive](https://drive.google.com/drive/folders/1MVSdUX0YBExauG0fFz4ANiWTrq9xZEj7?usp=sharing)
 
 ### Evaluation Process
 
 > Inference example:
-> For SR x4:
+> For SR x2,x3,x4:
 
 ```bash
-python main.py --dir_data $DATA_PATH --data_test $DATA_TEST --test_only --ext img --pth_path $MODEL --task_id $TASK_ID --scale $SCALE
+python main.py --dir_data $DATA_PATH --pretrain $MODEL_PATH --data_test Set5+Set14+B100+Urban100 --scale $SCALE
+```
+
+> For Denoise 30,50:
+
+```bash
+python main.py --dir_data $DATA_PATH --pretrain $MODEL_PATH --data_test CBSD68+Urban100 --scale 1 --denoise --sigma $NOISY_LEVEL
+```
+
+> For derain:
+
+```bash
+python main.py --dir_data $DATA_PATH --pretrain $MODEL_PATH --scale 1 --derain
 ```
 
 ## Results
