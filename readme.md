@@ -29,18 +29,19 @@ The benchmark datasets can be downloaded as follows:
 
 For super-resolution:
 
- Set5,
+[Set5](http://people.rennes.inria.fr/Aline.Roumy/results/SR_BMVC12.html),
 [Set14](https://sites.google.com/site/romanzeyde/research-interests),
 [B100](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/),
-Urban100.
+[Urban100](https://sites.google.com/site/jbhuang0604/publications/struct_sr).
 
 For denoising:
 
-[CBSD68](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/).
+[CBSD68](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/),
+[Urban100](https://sites.google.com/site/jbhuang0604/publications/struct_sr).
 
 For deraining:
 
-[Rain100L](https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html)
+[Rain100L](https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html).
 
 The result images are converted into YCbCr color space. The PSNR is evaluated on the Y channel only.
 
