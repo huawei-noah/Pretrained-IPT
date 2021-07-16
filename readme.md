@@ -19,7 +19,7 @@ We study the low-level computer vision task (such as denoising, super-resolution
 ## Requirements
 
 - python 3
-- pytorch >= 1.4.0
+- pytorch == 1.4.0
 - torchvision
 
 
