@@ -43,7 +43,9 @@ Urban100.
 
 For deraining:
 
-[Rain100L](https://pan.baidu.com/s/1yV4ih7C4Xg0iazqSBB-U1Q) (pwd:uz8h).
+Rain100.
+
+Please refer to [PReNet](https://github.com/csdwren/PReNet) 
 
 The result images are converted into YCbCr color space. The PSNR is evaluated on the Y channel only.
 
