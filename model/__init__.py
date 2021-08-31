@@ -247,4 +247,4 @@ class Model(nn.Module):
 
         y_w_cut[...,int(shave/2*scale):(h-h_cut)*scale-int(shave/2*scale),:] = y_w_cut_inter
         return y_w_cut
-    
+     
