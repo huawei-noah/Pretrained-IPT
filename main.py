@@ -12,7 +12,7 @@ import warnings
 warnings.filterwarnings('ignore')
 import os
 os.system('pip install einops')
-
+import model
 torch.manual_seed(args.seed)
 checkpoint = utility.checkpoint(args)
 
