@@ -12,7 +12,7 @@ We study the low-level computer vision task (such as denoising, super-resolution
 
 ## MindSpore Code
 
-- [Official MindSpore code](https://gitee.com/mindspore/mindspore/tree/master/model_zoo/research/cv/IPT)
+- [Official MindSpore code](https://gitee.com/mindspore/models/tree/master/research/cv/IPT)
 - [Pretrained weights for super-resolution X4](https://www.mindspore.cn/resources/hub/details?noah-cvlab/gpu/1.1/ipt_v1.0_Set14_SR_x4)
 
 
