@@ -87,10 +87,6 @@ python main.py --dir_data $DATA_PATH --pretrain $MODEL_PATH --scale 1 --derain
 ## Results
 
 
-<p align="center">
-<img src="images/results.png" width="600">
-</p>
-
 - Detailed results on image super-resolution task.
 
 <center>
