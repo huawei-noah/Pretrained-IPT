@@ -46,8 +46,6 @@ class SRData(data.Dataset):
         self.idx_scale = 0
         
         if self.args.derain:
-            self.derain_dataroot = os.path.join(args.dir_data, "RainTrainL")
-            self.derain_img_list = search(self.derain_dataroot, "rainstreak")
             self.derain_test = os.path.join(args.dir_data, "Rain100L")
             self.derain_lr_test = search(self.derain_test, "rain")
             self.derain_hr_test = [path.replace("rainy/","no") for path in self.derain_lr_test]
@@ -106,6 +104,8 @@ class SRData(data.Dataset):
                 self.repeat = 0
             else:
                 self.repeat = max(n_patches // n_images, 1)
+        if self.args.derain:
+            self.images_hr, self.images_lr = self.derain_hr_test, self.derain_lr_test
 
     # Below functions as used to prepare images
     def _scan(self):
