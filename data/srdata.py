@@ -106,6 +106,9 @@ class SRData(data.Dataset):
                 self.repeat = max(n_patches // n_images, 1)
         if self.args.derain:
             self.images_hr, self.images_lr = self.derain_hr_test, self.derain_lr_test
+        if self.args.denoise:
+            self.images_hr = glob.glob(os.path.join(self.apath, '*.png'))
+            self.images_lr = glob.glob(os.path.join(self.apath, '*.png'))
 
     # Below functions as used to prepare images
     def _scan(self):
