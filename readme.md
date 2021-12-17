@@ -71,18 +71,22 @@ The pretrained models are available in [google drive](https://drive.google.com/d
 ```bash
 python main.py --dir_data $DATA_PATH --pretrain $MODEL_PATH --data_test Set5+Set14+B100+Urban100 --scale $SCALE
 ```
+> Note: path of images should be like: $MODEL_PATH/benchmark/Set5/...
 
 > For Denoise 30,50:
 
 ```bash
 python main.py --dir_data $DATA_PATH --pretrain $MODEL_PATH --data_test CBSD68+Urban100 --scale 1 --denoise --sigma $NOISY_LEVEL
 ```
+> Note: path of images should be like: $MODEL_PATH/benchmark/CBSD68/...
 
 > For derain:
 
 ```bash
 python main.py --dir_data $DATA_PATH --pretrain $MODEL_PATH --scale 1 --derain
 ```
+
+> Note: path of images should be like: $MODEL_PATH/Rain100L/...
 
 ## Results
 
