@@ -83,7 +83,7 @@ python main.py --dir_data $DATA_PATH --pretrain $MODEL_PATH --data_test Set5+Set
 ```bash
 python main.py --dir_data $DATA_PATH --pretrain $MODEL_PATH --data_test CBSD68+Urban100 --scale 1 --denoise --sigma $NOISY_LEVEL --test_only
 ```
-> Note: path of images should be like: $MODEL_PATH/CBSD68/XXX.png
+> Note: path of images should be like: $MODEL_PATH/benchmark/CBSD68/XXX.png
 
 > For derain:
 
