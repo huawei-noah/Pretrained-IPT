@@ -74,21 +74,21 @@ The pretrained models are available in [google drive](https://drive.google.com/d
 > For SR x2,x3,x4:
 
 ```bash
-python main.py --dir_data $DATA_PATH --pretrain $MODEL_PATH --data_test Set5+Set14+B100+Urban100 --scale $SCALE
+python main.py --dir_data $DATA_PATH --pretrain $MODEL_PATH --data_test Set5+Set14+B100+Urban100 --scale $SCALE --test_only
 ```
 > Note: path of images should be like: $MODEL_PATH/benchmark/Set5/HR/XXX.png and $MODEL_PATH/benchmark/Set5/LR_bicubic/XXX.png
 
 > For Denoise 30,50:
 
 ```bash
-python main.py --dir_data $DATA_PATH --pretrain $MODEL_PATH --data_test CBSD68+Urban100 --scale 1 --denoise --sigma $NOISY_LEVEL
+python main.py --dir_data $DATA_PATH --pretrain $MODEL_PATH --data_test CBSD68+Urban100 --scale 1 --denoise --sigma $NOISY_LEVEL --test_only
 ```
 > Note: path of images should be like: $MODEL_PATH/CBSD68/XXX.png
 
 > For derain:
 
 ```bash
-python main.py --dir_data $DATA_PATH --pretrain $MODEL_PATH --scale 1 --derain
+python main.py --dir_data $DATA_PATH --pretrain $MODEL_PATH --scale 1 --derain --test_only
 ```
 
 > Note: path of images should be like: $MODEL_PATH/Rain100L/rain-XXX.png and $MODEL_PATH/Rain100L/norain-XXX.png
