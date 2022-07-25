@@ -3,7 +3,6 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pre-trained-image-processing-transformer/color-image-denoising-on-mcmaster-sigma50)](https://paperswithcode.com/sota/color-image-denoising-on-mcmaster-sigma50?p=pre-trained-image-processing-transformer)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pre-trained-image-processing-transformer/image-super-resolution-on-set14-3x-upscaling)](https://paperswithcode.com/sota/image-super-resolution-on-set14-3x-upscaling?p=pre-trained-image-processing-transformer)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pre-trained-image-processing-transformer/image-super-resolution-on-urban100-3x)](https://paperswithcode.com/sota/image-super-resolution-on-urban100-3x?p=pre-trained-image-processing-transformer)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pre-trained-image-processing-transformer/color-image-denoising-on-urban100-sigma50)](https://paperswithcode.com/sota/color-image-denoising-on-urban100-sigma50?p=pre-trained-image-processing-transformer)
 
 # **Pre**-Trained Image Processing Transformer (IPT)
 By Hanting Chen, Yunhe Wang, Tianyu Guo, Chang Xu, Yiping Deng, Zhenhua Liu, Siwei Ma, Chunjing Xu, Chao Xu, Wen Gao. [[arXiv]](https://arxiv.org/abs/2012.00364)
